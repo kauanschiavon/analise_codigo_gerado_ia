@@ -1,0 +1,9 @@
+```python
+    if not numbers:
+        return (0, 1)
+    sum_val = sum(numbers)
+    product_val = 1
+    for num in numbers:
+        product_val *= num
+    return (sum_val, product_val)
+```

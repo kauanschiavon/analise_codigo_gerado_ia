@@ -1,0 +1,14 @@
+```python
+    result = []
+    for group in paren_string.split():
+        depth = 0
+        max_depth = 0
+        for char in group:
+            if char == '(':
+                depth += 1
+                max_depth = max(depth, max_depth)
+            elif char == ')':
+                depth -= 1
+        result.append(max_depth)
+    return result
+```

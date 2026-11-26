@@ -1,0 +1,4 @@
+RELATÓRIO DE AMOSTRAS COM SINTAXE INVÁLIDA
+================================================
+
+Nenhuma amostra sintaticamente inválida foi encontrada.

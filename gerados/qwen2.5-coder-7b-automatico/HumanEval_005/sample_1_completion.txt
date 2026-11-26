@@ -1,0 +1,10 @@
+```python
+    if not numbers:
+        return []
+
+    result = [numbers[0]]
+    for number in numbers[1:]:
+        result.extend([delimeter, number])
+
+    return result
+```

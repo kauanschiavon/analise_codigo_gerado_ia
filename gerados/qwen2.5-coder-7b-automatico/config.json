@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-11-26T18:54:39.166877+00:00",
+  "dataset": "dados/HumanEval.jsonl.gz",
+  "dataset_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+  "model": "qwen2.5-coder:7b",
+  "ollama_url": "http://localhost:11434",
+  "ollama": {
+    "ollama_version": "0.40.18",
+    "local_models": [
+      {
+        "name": "qwen2.5-coder:7b",
+        "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364"
+      }
+    ]
+  },
+  "n_problems": 20,
+  "n_samples_per_problem": 5,
+  "temperature": 0.2,
+  "num_predict": 512,
+  "system_prompt": "You are completing a Python function from the HumanEval benchmark. Continue the code exactly from where the provided prompt ends. Output only the code continuation required to complete the function. Do not repeat the existing prompt, function signature, or docstring. Do not include Markdown fences, explanations, or tests.",
+  "independent_requests": true,
+  "completion_preprocessing": "remove_markdown_fences_v1",
+  "reconstruction": {
+    "method": "preserve_leading_indentation_v1",
+    "source_directory": "gerados/qwen2.5-coder-7b-automatico-v2",
+    "note": "Arquivos .py reconstruídos das respostas brutas. Os arquivos originais permanecem intactos."
+  }
+}

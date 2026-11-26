@@ -1,0 +1,17 @@
+{
+  "total_samples_found": 100,
+  "passed": 90,
+  "failed": 10,
+  "timed_out": 0,
+  "other_or_not_evaluated": 0,
+  "status_counts": {
+    "passed": 90,
+    "failed": 10
+  },
+  "pass_rate_percent_over_all_found": 90.0,
+  "dataset": "/Users/kauansilvaschiavon/Desktop/llm_local/dados/HumanEval.jsonl.gz",
+  "docker_image": "python:3.11-slim",
+  "timeout_seconds_per_sample": 3.0,
+  "execution": "One disposable Docker container per sample; network disabled; read-only root filesystem; memory, CPU, process and time limits.",
+  "warning": "Revise erros de Docker e casos não avaliados antes de calcular métricas. Validade sintática não comprova correção funcional."
+}

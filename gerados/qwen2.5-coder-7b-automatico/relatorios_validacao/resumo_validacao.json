@@ -1,0 +1,10 @@
+{
+  "generation_directory": "gerados/qwen2.5-coder-7b-automatico-v2-reconstruido",
+  "total_files_checked": 100,
+  "syntax_valid": 100,
+  "syntax_invalid": 0,
+  "invalid_rate_percent": 0.0,
+  "invalid_by_problem": {},
+  "error_groups": {},
+  "note": "A validação sintática não comprova correção funcional. Investigue a resposta bruta e o prompt dos casos inválidos antes de atribuir a falha exclusivamente ao modelo."
+}
