@@ -1,0 +1,33 @@
+AMOSTRAS QUE FALHARAM NA COMPILAÇÃO DO PYTHON
+====================================================
+
+HumanEval/3 | amostra 1
+Arquivo: gerados/qwen2.5-coder-7b-automatico/HumanEval_003/sample_1.py
+Erro: SyntaxError: 'return' outside function
+Linha: 17 | coluna: 9
+Resposta bruta: gerados/qwen2.5-coder-7b-automatico-v2-reconstruido/HumanEval_003/sample_1_completion.txt
+
+HumanEval/3 | amostra 3
+Arquivo: gerados/qwen2.5-coder-7b-automatico/HumanEval_003/sample_3.py
+Erro: SyntaxError: 'return' outside function
+Linha: 17 | coluna: 9
+Resposta bruta: gerados/qwen2.5-coder-7b-automatico-v2-reconstruido/HumanEval_003/sample_3_completion.txt
+
+HumanEval/3 | amostra 4
+Arquivo: gerados/qwen2.5-coder-7b-automatico/HumanEval_003/sample_4.py
+Erro: SyntaxError: 'return' outside function
+Linha: 17 | coluna: 9
+Resposta bruta: gerados/qwen2.5-coder-7b-automatico-v2-reconstruido/HumanEval_003/sample_4_completion.txt
+
+HumanEval/3 | amostra 5
+Arquivo: gerados/qwen2.5-coder-7b-automatico/HumanEval_003/sample_5.py
+Erro: SyntaxError: 'return' outside function
+Linha: 17 | coluna: 9
+Resposta bruta: gerados/qwen2.5-coder-7b-automatico-v2-reconstruido/HumanEval_003/sample_5_completion.txt
+
+HumanEval/15 | amostra 3
+Arquivo: gerados/qwen2.5-coder-7b-automatico/HumanEval_015/sample_3.py
+Erro: SyntaxError: 'return' outside function
+Linha: 10 | coluna: 1
+Resposta bruta: gerados/qwen2.5-coder-7b-automatico-v2-reconstruido/HumanEval_015/sample_3_completion.txt
+

@@ -1,0 +1,67 @@
+{
+  "root": "gerados/qwen2.5-coder-7b-automatico",
+  "dataset": "dados/HumanEval.jsonl.gz",
+  "problems": [
+    "HumanEval/0",
+    "HumanEval/1",
+    "HumanEval/2",
+    "HumanEval/3",
+    "HumanEval/4",
+    "HumanEval/5",
+    "HumanEval/6",
+    "HumanEval/7",
+    "HumanEval/8",
+    "HumanEval/9",
+    "HumanEval/10",
+    "HumanEval/11",
+    "HumanEval/12",
+    "HumanEval/13",
+    "HumanEval/14",
+    "HumanEval/15",
+    "HumanEval/16",
+    "HumanEval/17",
+    "HumanEval/18",
+    "HumanEval/19"
+  ],
+  "classification": {
+    "pylint_error_fatal_warning": "erro_provavel",
+    "pylint_convention_refactor": "estilo",
+    "bandit": "seguranca",
+    "filter": "Somente alertas cuja linha está dentro do corpo da função; assinatura e docstring são excluídas."
+  },
+  "groups": {
+    "qwen": {
+      "samples_analyzed": 95,
+      "samples_skipped": 5,
+      "loc_body_total": 430,
+      "pylint_alerts": 8,
+      "bandit_alerts": 0,
+      "error_provavel_alerts": 0,
+      "security_alerts": 0,
+      "style_alerts": 8,
+      "total_alerts": 8,
+      "alerts_per_100_loc": 1.8605
+    },
+    "humano": {
+      "samples_analyzed": 20,
+      "samples_skipped": 0,
+      "loc_body_total": 112,
+      "pylint_alerts": 1,
+      "bandit_alerts": 0,
+      "error_provavel_alerts": 0,
+      "security_alerts": 0,
+      "style_alerts": 1,
+      "total_alerts": 1,
+      "alerts_per_100_loc": 0.8929
+    }
+  },
+  "tool_errors_count": 0,
+  "tool_errors": [],
+  "limitations": [
+    "Alertas estáticos são indícios, não prova automática de defeito.",
+    "Bandit detecta padrões de segurança, não a ausência de vulnerabilidades.",
+    "Alertas devem ser classificados manualmente para estimar precisão.",
+    "A densidade usa linhas não vazias e não comentadas no corpo da função.",
+    "A comparação exploratória usa 100 gerações e 20 soluções humanas."
+  ]
+}

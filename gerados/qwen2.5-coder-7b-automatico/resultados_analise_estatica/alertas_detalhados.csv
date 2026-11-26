@@ -1,0 +1,10 @@
+﻿group,task_id,sample,tool,category,severity,code,symbol,message,line,confidence,source_file
+qwen,HumanEval/0,1,pylint,estilo,convention,C0200,consider-using-enumerate,Consider using enumerate instead of iterating with range and len,12,,gerados/qwen2.5-coder-7b-automatico/HumanEval_000/sample_1.py
+qwen,HumanEval/0,2,pylint,estilo,convention,C0200,consider-using-enumerate,Consider using enumerate instead of iterating with range and len,12,,gerados/qwen2.5-coder-7b-automatico/HumanEval_000/sample_2.py
+qwen,HumanEval/0,3,pylint,estilo,convention,C0200,consider-using-enumerate,Consider using enumerate instead of iterating with range and len,12,,gerados/qwen2.5-coder-7b-automatico/HumanEval_000/sample_3.py
+qwen,HumanEval/0,4,pylint,estilo,convention,C0200,consider-using-enumerate,Consider using enumerate instead of iterating with range and len,12,,gerados/qwen2.5-coder-7b-automatico/HumanEval_000/sample_4.py
+qwen,HumanEval/0,5,pylint,estilo,convention,C0200,consider-using-enumerate,Consider using enumerate instead of iterating with range and len,12,,gerados/qwen2.5-coder-7b-automatico/HumanEval_000/sample_5.py
+qwen,HumanEval/9,1,pylint,estilo,refactor,R1731,consider-using-max-builtin,"Consider using 'current_max = max(current_max, number)' instead of unnecessary if block",13,,gerados/qwen2.5-coder-7b-automatico/HumanEval_009/sample_1.py
+qwen,HumanEval/9,3,pylint,estilo,refactor,R1731,consider-using-max-builtin,"Consider using 'current_max = max(current_max, number)' instead of unnecessary if block",13,,gerados/qwen2.5-coder-7b-automatico/HumanEval_009/sample_3.py
+qwen,HumanEval/9,5,pylint,estilo,refactor,R1731,consider-using-max-builtin,"Consider using 'current_max = max(current_max, number)' instead of unnecessary if block",13,,gerados/qwen2.5-coder-7b-automatico/HumanEval_009/sample_5.py
+humano,HumanEval/11,canonical,pylint,estilo,refactor,R1705,no-else-return,"Unnecessary ""else"" after ""return"", remove the ""else"" and de-indent the code inside it",11,,gerados/qwen2.5-coder-7b-automatico/resultados_analise_estatica/solucoes_humanas/HumanEval_011.py

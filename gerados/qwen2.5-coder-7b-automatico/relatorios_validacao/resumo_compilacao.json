@@ -1,0 +1,12 @@
+{
+  "total_files_checked": 100,
+  "compile_valid": 95,
+  "compile_invalid": 5,
+  "compile_invalid_rate_percent": 5.0,
+  "invalid_by_problem": {
+    "HumanEval/3": 4,
+    "HumanEval/15": 1
+  },
+  "validation_method": "compile(source, filename, 'exec')",
+  "note": "compile() detecta erros de compilação/contexto, incluindo 'return outside function'. Isso não comprova correção funcional."
+}
