@@ -36,4 +36,27 @@ HumanEval/3	      1 	4
 HumanEval/10	  0	    5
 HumanEval/15	  4	    1
 
-colocar oq significa a temperatura(tabela)
+colocar oq significa a temperatura(tabela)(no pdf)
+
+LLM Local — Experimento HumanEval
+Scripts utilizados no experimento de geração, validação e análise de código produzido pelo Qwen 2.5 Coder 7B.
+Arquivos
+Arquivo	Para que serve
+app.py	Arquivo principal da aplicação.
+gerar_humaneval_corrigido.py	Envia os problemas do HumanEval ao Qwen pelo Ollama e salva as respostas geradas.
+reconstruir_amostras.py	Reconstrói os arquivos .py a partir das respostas originais, preservando a indentação e removendo cercas Markdown.
+validar.py	Faz uma verificação sintática preliminar dos arquivos Python com ast.parse().
+validar_compile.py	Verifica se os arquivos realmente compilam com compile(), identificando erros como return fora de função.
+testar.py	Executa os testes oficiais do HumanEval para cada amostra, usando Docker para isolar a execução.
+analisar.py	Executa Pylint e Bandit nos códigos gerados e nas soluções humanas, produzindo relatórios de alertas.
+.gitignore	Define quais arquivos e pastas o Git deve ignorar, como ambientes virtuais e caches.
+README.md	Documenta resumidamente os arquivos do projeto.
+
+
+Ordem geral de uso
+1. gerar_humaneval_corrigido.py — gerar as respostas do modelo.
+2. reconstruir_amostras.py — reconstruir os arquivos, quando necessário.
+3. validar.py e validar_compile.py — verificar sintaxe e compilação.
+4. testar.py — avaliar o comportamento com os testes do HumanEval.
+5. analisar.py — executar a análise estática com Pylint e Bandit.
+Execute os comandos a partir da pasta raiz do projeto. Consulte as opções de cada script com python3 nome_do_script.py --help, quando disponíveis.
